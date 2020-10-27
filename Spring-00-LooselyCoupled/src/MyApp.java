@@ -1,6 +1,7 @@
 import implementation.Mentor;
 import services.FullTimeMentor;
 import services.MentorAccount;
+import services.PartTimeMentor;
 
 public class MyApp {
 
@@ -8,9 +9,12 @@ public class MyApp {
 
 
         FullTimeMentor fullTimeMentor = new FullTimeMentor();
-        MentorAccount mentorAccount = new MentorAccount(fullTimeMentor);
+        PartTimeMentor partTimeMentor = new PartTimeMentor();
 
-        mentorAccount.manageAccount();;
+
+        MentorAccount mentor = new MentorAccount(fullTimeMentor);
+
+        mentor.manageAccount();;
 
 
 
