@@ -16,10 +16,15 @@ public class MyApp {
         //2-with ApplicationContext interface
         ApplicationContext container = new ClassPathXmlApplicationContext("config.xml");
 
+        /*
+        We are getting bean but we need to down-cast the bean to to get Mentor type not object class type;
+        there are many overloaded getBean methods that taking different parameters,
+        if we pass just the 'bean id' then we have to down cast to Mentor class to make sure we are getting Mentor type
+         */
         Mentor mentor = (Mentor)container.getBean("fullTimeMentor");
                        //downcast                     // bean id name
 
-        // or We can do it like this if we don't wanna do down-casting
+        // or We can do it like this if we don't wanna do down-casting : with two parameters
         // Mentor mentor = container.getBean("fullTimeMentor", Mentor.class);
 
            mentor.createAccount(); //fullTime mentor created
