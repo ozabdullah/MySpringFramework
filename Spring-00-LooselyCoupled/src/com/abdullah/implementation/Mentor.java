@@ -1,4 +1,4 @@
-package implementation;
+package com.abdullah.implementation;
 
 public interface Mentor {
 

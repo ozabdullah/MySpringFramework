@@ -1,6 +1,6 @@
-package services;
+package com.abdullah.services;
 
-import implementation.Mentor;
+import com.abdullah.implementation.Mentor;
 
 public class PartTimeMentor implements Mentor {
     @Override

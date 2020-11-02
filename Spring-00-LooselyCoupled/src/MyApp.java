@@ -1,7 +1,6 @@
-import implementation.Mentor;
-import services.FullTimeMentor;
-import services.MentorAccount;
-import services.PartTimeMentor;
+import com.abdullah.services.FullTimeMentor;
+import com.abdullah.services.MentorAccount;
+import com.abdullah.services.PartTimeMentor;
 
 public class MyApp {
 
