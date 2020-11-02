@@ -6,7 +6,7 @@
 
 
     <bean id = "java" class="com.abdullah.services.Java">
-        <constructor-arg ref="officeHours"></constructor-arg>
+        <property name="officeHours" ref="officeHours"/>
     </bean>
 
     <bean id = "selenium" class="com.abdullah.services.Selenium"></bean>

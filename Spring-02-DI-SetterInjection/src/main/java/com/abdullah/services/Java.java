@@ -5,15 +5,18 @@ import com.abdullah.interfaces.ExtraSessions;
 
 public class Java implements Course {
 
-    //OfficeHours officeHours;
-    ExtraSessions extraSessions;
+    private  OfficeHours officeHours;
 
-    public Java(ExtraSessions extraSessions) {
-        this.extraSessions = extraSessions;
+    public OfficeHours getOfficeHours() {
+        return officeHours;
+    }
+
+    public void setOfficeHours(OfficeHours officeHours) {
+        this.officeHours = officeHours;
     }
 
     @Override
     public void getTeachingHours() {
-        System.out.println("Weekly teaching hours : "+(20 + extraSessions.getHours()));
+        System.out.println("Weekly teaching hours : "+(20 + officeHours.getHours()));
     }
 }
