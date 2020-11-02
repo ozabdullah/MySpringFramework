@@ -6,7 +6,8 @@ public class Java implements Course {
 
 
 
-    @Override
+
+   // @Override
     public void getTeachingHours() {
         System.out.println("Weekly teaching hours : 20");
 
