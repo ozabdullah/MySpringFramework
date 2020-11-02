@@ -1,6 +1,6 @@
 package com.myapplication.services.carpet;
 
-import com.myapplication.Interfaces.carpetPrices.Carpet;
+import com.myapplication.interfaces.carpetPrices.Carpet;
 import com.myapplication.enums.City;
 import org.springframework.stereotype.Component;
 

@@ -1,4 +1,4 @@
-package com.myapplication.Interfaces.floorTypes;
+package com.myapplication.interfaces.floorTypes;
 
 import java.math.BigDecimal;
 

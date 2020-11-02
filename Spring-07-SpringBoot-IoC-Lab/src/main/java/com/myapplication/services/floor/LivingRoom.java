@@ -1,6 +1,6 @@
 package com.myapplication.services.floor;
 
-import com.myapplication.Interfaces.floorTypes.Floor;
+import com.myapplication.interfaces.floorTypes.Floor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 

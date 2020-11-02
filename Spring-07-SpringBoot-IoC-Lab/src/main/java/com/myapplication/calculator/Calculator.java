@@ -1,7 +1,7 @@
-package com.myapplication.CALCULATOR;
+package com.myapplication.calculator;
 
-import com.myapplication.Interfaces.carpetPrices.Carpet;
-import com.myapplication.Interfaces.floorTypes.Floor;
+import com.myapplication.interfaces.carpetPrices.Carpet;
+import com.myapplication.interfaces.floorTypes.Floor;
 import com.myapplication.enums.City;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -12,11 +12,11 @@ import java.math.BigDecimal;
 @Component
 public class Calculator {
 
-    @Qualifier("carpetVA") //which bean -->
+    @Qualifier("carpetTX") //which bean -->
     @Autowired
     private Carpet carpet;
 
-    @Qualifier("kitchen")
+    @Qualifier("bedroom")
     @Autowired
     private Floor floor;
 
@@ -29,6 +29,6 @@ public class Calculator {
             throw new Exception("This city does not exist"); // manually throw an exception
         }
 
-                return "Total cost for carpet : "+ cost;
+                return "Total cost for carpet : "+ carpet.getSqFtPrice(city).multiply(floor.getArea());
     }
 }

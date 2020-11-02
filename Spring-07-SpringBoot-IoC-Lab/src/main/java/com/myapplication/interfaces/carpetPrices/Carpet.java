@@ -1,4 +1,4 @@
-package com.myapplication.Interfaces.carpetPrices;
+package com.myapplication.interfaces.carpetPrices;
 
 import com.myapplication.enums.City;
 
