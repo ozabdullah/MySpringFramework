@@ -14,7 +14,7 @@ public class MyApp {
 
         course.getTeachingHours();
 
-        // destroy method calling
+        // destroy method calling = destroy the container
         ((ClassPathXmlApplicationContext)container).close();
 
     }
