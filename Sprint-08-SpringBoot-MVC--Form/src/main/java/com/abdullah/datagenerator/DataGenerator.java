@@ -3,7 +3,7 @@ package com.abdullah.datagenerator;
 import java.util.Arrays;
 import java.util.List;
 
-public class Datagenerator {
+public class DataGenerator {
 
     public static List<String> getStateList(){
 
