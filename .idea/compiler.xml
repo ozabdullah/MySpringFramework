@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Spring-01-SpringContainer" />
+        <module name="Spring-08-SpringBoot-MVC-Controller" />
+        <module name="Spring-04-BeanLifeCycleMethods" />
+        <module name="Spring-02-DI-SetterInjection" />
+        <module name="Spring-07-SpringBoot-IoC-Lab" />
+        <module name="Sprint-08-SpringBoot-MVC--Form" />
+        <module name="SpringBoot-08-SpringBoot-MVC-Model-View(ThymeLeaf)" />
+        <module name="Sprint-07-SpringBoot -Demo" />
+        <module name="Spring-06-JavaCode-PostConstructor-PreConstructor" />
+        <module name="Spring-02-DI-ConstructorInjection" />
+        <module name="Spring-08-SpringBoot-MVC-Model-View" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Spring-03-BeanScope-Singleton-Prototype" target="1.8" />
+      <module name="Spring-04-BeanLifeCycle" target="15" />
+      <module name="Spring-04-BeanLifeCycle.main" target="15" />
+      <module name="Spring-04-BeanLifeCycle.test" target="15" />
+      <module name="SpringBoot-08-SpringBoot-MVC-Model-View(ThymeLeaf)" target="11" />
+      <module name="Sprint-04-BeanLifeCycle" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Spring-07-SpringBoot-IoC-Lab" options="-parameters" />
+      <module name="Spring-08-SpringBoot-MVC-Controller" options="-parameters" />
+      <module name="Spring-08-SpringBoot-MVC-Model-View" options="-parameters" />
+      <module name="SpringBoot-08-SpringBoot-MVC-Model-View(ThymeLeaf)" options="-parameters" />
+      <module name="Sprint-07-SpringBoot -Demo" options="-parameters" />
+      <module name="Sprint-08-SpringBoot-MVC--Form" options="-parameters" />
+    </option>
+  </component>
+</project>

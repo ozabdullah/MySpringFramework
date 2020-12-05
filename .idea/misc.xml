@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/Spring-04-BeanLifeCycle" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$USER_HOME$/IdeaProjects/Spring-06-JavaCode-PostConstructor-PreConstructor/pom.xml" />
+        <option value="$PROJECT_DIR$/Sprint-07-SpringBoot -Demo/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-07-SpringBoot-IoC-Lab/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-01-SpringContainer/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-02-DI-ConstructorInjection/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-02-DI-SetterInjection/pom.xml" />
+        <option value="$PROJECT_DIR$/BeanScope-Singleton-Prototype/pom.xml" />
+        <option value="$PROJECT_DIR$/Sprint-04-BeanLifeCycle/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-04-BeanLifeCycleMethods/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Controller/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Model-View/pom.xml" />
+        <option value="$PROJECT_DIR$/Sprint-08-SpringBoot-MVC--Form/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_14">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
