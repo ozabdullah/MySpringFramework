@@ -1,0 +1,7 @@
+package com.ormconfig.enums;
+
+public enum Gender {
+
+
+
+}
